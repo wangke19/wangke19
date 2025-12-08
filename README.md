@@ -11,33 +11,6 @@ I work on building, testing, and automating components of the Kubernetes and Ope
 
 ---
 
-## 🧩 Areas of Expertise
-
-<table>
-<tr>
-<td width="50%">
-
-⚙️ **Kubernetes API Server, Admission, Storage, Versioning**
-
-🔴 **OpenShift Operators (CMO, CKO, CKAO, OAuth-APIServer, OpenShift-APIServer, etc.)**
-
-🧪 **e2e test design (parallel/serial, conformance, deprecation)**
-
-</td>
-<td width="50%">
-
-🔄 **Migrating legacy APIs, maintaining API compatibility**
-
-🚀 **Reliability & automation for large-scale clusters**
-
-💻 **Go, Python, Bash, Linux debugging**
-
-</td>
-</tr>
-</table>
-
----
-
 ## 📈 GitHub Stats
 
 ![GitHub Stats](https://raw.githubusercontent.com/wangke19/wangke19/output/stats-card.svg)
