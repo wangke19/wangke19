@@ -1,23 +1,21 @@
-# Hi there, I'm Ke Wang 👋
+## 👋 Hi, I'm Ke Wang
+Cloud Native Engineer | OpenShift & Kubernetes Control Plane
 
-## 🚀 About Me
-
-I'm a **Software Engineer** passionate about cloud-native technologies and AI-driven solutions.
-
-### 💻 Primary Tech Stack
-
-**Languages:**
-`Go` `Python`
-
-**Current Focus:**
-- 🔭 Working on **Kubernetes** and **OpenShift** projects
-- 🌱 Learning **AI** knowledge and related projects
-- ☁️ Building cloud-native applications and microservices
-- 🛠️ Container orchestration and platform engineering
+I work on building, testing, and automating components of the Kubernetes and OpenShift control plane — with strong focus on API machinery, operators, e2e testing, and cluster reliability.
 
 ---
 
-## 📊 GitHub Stats
+## 🧩 Areas of Expertise
+- Kubernetes API Server, Admission, Storage, Versioning
+- OpenShift Operators (CMO, CKO, CKAO, OAuth-APIServer, OpenShift-APIServer, etc.)
+- e2e test design (parallel/serial, conformance, deprecation)
+- Migrating legacy APIs, maintaining API compatibility
+- Reliability & automation for large-scale clusters
+- Go, Python, Bash, Linux debugging
+
+---
+
+## 📈 GitHub Stats
 
 ```text
 💫 Total Stars                0
@@ -32,79 +30,32 @@ Last updated: 2024-12-08
 
 ---
 
-## 🎯 Technical Expertise
+## 🔧 What I'm Working On
 
-**Cloud Native & Container Orchestration:**
-- Kubernetes (K8s)
-- OpenShift
-- Docker
-- Container Security & Networking
-
-**Backend Development:**
-- Go - High-performance microservices
-- Python - Data processing & automation
-- REST APIs & gRPC
-- Message Queues & Event-Driven Architecture
-
-**AI & Machine Learning:**
-- Currently exploring AI/ML frameworks
-- Integration of AI capabilities into applications
-- MLOps and model deployment
-
-**DevOps & Infrastructure:**
-- CI/CD Pipelines
-- Infrastructure as Code
-- Monitoring & Observability
-- Cloud Platforms (AWS, GCP)
+- 🔭 Building & testing **Kubernetes** and **OpenShift** control plane components
+- 🌱 Learning **AI** knowledge and related projects
+- 🛠️ Developing operators and automation tooling
+- 🧪 Designing comprehensive e2e test suites
+- 📊 Ensuring API compatibility and cluster reliability
 
 ---
 
-## 🔥 What I'm Working On
+## 💡 Core Principles
 
-```go
-type CurrentProjects struct {
-    CloudNative  []string
-    Learning     []string
-    Interests    []string
-}
-
-myWork := CurrentProjects{
-    CloudNative: []string{
-        "Kubernetes cluster management",
-        "OpenShift platform engineering",
-        "Container orchestration patterns",
-    },
-    Learning: []string{
-        "AI/ML fundamentals",
-        "LLM integration",
-        "AI-powered automation",
-    },
-    Interests: []string{
-        "Distributed systems",
-        "Cloud-native architecture",
-        "Developer productivity tools",
-    },
-}
-```
-
----
-
-## 🌟 Core Principles
-
-- **Clean Code:** Write code that's easy to read and maintain
-- **Testing First:** Comprehensive tests for reliability
-- **Performance Matters:** Optimize for scale and efficiency
-- **Documentation:** Clear docs for better collaboration
-- **Continuous Learning:** Stay updated with latest technologies
+- **API Stability:** Maintain backward compatibility and smooth migrations
+- **Test Coverage:** Comprehensive e2e, unit, and integration tests
+- **Automation First:** Reduce toil, improve reliability
+- **Clean Code:** Readable, maintainable, idiomatic Go
+- **Upstream Focus:** Contribute to Kubernetes and OpenShift communities
 
 ---
 
 ## 📫 Let's Connect
 
-- 💼 Open to collaborations on K8s, OpenShift, and AI projects
-- 🤝 Happy to discuss cloud-native architecture and Go development
-- 📧 Always interested in innovative tech solutions and ideas
+- 💼 Open to discussions on K8s control plane, operators, and testing strategies
+- 🤝 Happy to collaborate on OpenShift/Kubernetes upstream contributions
+- 📧 Interested in API design, reliability engineering, and cloud-native architecture
 
 ---
 
-**"Simplicity is the ultimate sophistication."**
+**"Make the API so good that debugging becomes unnecessary."**
