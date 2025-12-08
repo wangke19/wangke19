@@ -25,24 +25,29 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: go run generate-stats-card.go
 
-      - name: Commit stats card to output branch
+      - name: Copy SVG to temp location
+        run: |
+          mkdir -p /tmp/stats
+          cp stats-card.svg /tmp/stats/
+
+      - name: Checkout output branch
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
 
           # Fetch output branch if it exists
-          git fetch origin output:output 2>/dev/null || git checkout --orphan output
-
-          # If output branch doesn't exist locally, create it
-          if ! git show-ref --verify --quiet refs/heads/output; then
+          if git ls-remote --heads origin output | grep output; then
+            git fetch origin output
+            git checkout output
+          else
             git checkout --orphan output
             git rm -rf . || true
-          else
-            git checkout output
           fi
 
-          # Copy the stats card
-          git checkout main -- stats-card.svg
+      - name: Update stats card
+        run: |
+          # Copy the SVG from temp
+          cp /tmp/stats/stats-card.svg .
 
           # Commit and push
           git add stats-card.svg
