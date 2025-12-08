@@ -17,7 +17,6 @@ I work on building, testing, and automating components of the Kubernetes and Ope
 
 ## 📈 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=wangke19&show_icons=true&theme=radical)
 ![GitHub Stats](https://raw.githubusercontent.com/wangke19/wangke19/output/stats-card.svg)
 
 ---
