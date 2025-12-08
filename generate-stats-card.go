@@ -141,7 +141,7 @@ func fetchStats(ctx context.Context, token string) (*StatsCard, error) {
 }
 
 func generateStatsCardSVG(stats *StatsCard) string {
-	return fmt.Sprintf(`<svg width="495" height="195" viewBox="0 0 495 195" fill="none" xmlns="http://www.w3.org/2000/svg">
+	return fmt.Sprintf(`<svg width="540" height="195" viewBox="0 0 540 195" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
     .header { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #2f80ed; }
     .stat { font: 600 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: #333; }
@@ -154,7 +154,7 @@ func generateStatsCardSVG(stats *StatsCard) string {
     }
   </style>
 
-  <rect x="0.5" y="0.5" rx="4.5" height="99%%" stroke="#e4e2e2" width="494" fill="#fffefe" stroke-opacity="1"/>
+  <rect x="0.5" y="0.5" rx="4.5" height="99%%" stroke="#e4e2e2" width="539" fill="#fffefe" stroke-opacity="1"/>
 
   <g transform="translate(25, 35)">
     <text x="0" y="0" class="header">Ke Wang's GitHub Stats</text>
@@ -206,7 +206,7 @@ func generateStatsCardSVG(stats *StatsCard) string {
         <path fill-rule="evenodd" d="M1.75 0A1.75 1.75 0 000 1.75v12.5C0 15.216.784 16 1.75 16h12.5A1.75 1.75 0 0016 14.25V1.75A1.75 1.75 0 0014.25 0H1.75zM1.5 1.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v12.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25V1.75zM11.75 3a.75.75 0 00-.75.75v7.5a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75zm-8.25.75a.75.75 0 011.5 0v5.5a.75.75 0 01-1.5 0v-5.5zM8 3a.75.75 0 00-.75.75v3.5a.75.75 0 001.5 0v-3.5A.75.75 0 008 3z"/>
       </svg>
       <text class="stat" x="25" y="12.5">Total Contributions:</text>
-      <text class="stat" x="155" y="12.5">%d</text>
+      <text class="stat" x="175" y="12.5">%d</text>
     </g>
   </g>
 </svg>`,
