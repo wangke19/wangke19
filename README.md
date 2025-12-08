@@ -1,59 +1,17 @@
-<div align="center">
+## 👋 Hi, I'm Ke Wang
+Cloud Native Engineer | OpenShift & Kubernetes Control Plane
 
-# 👋 Hi, I'm Ke Wang
-
-**Cloud Native Engineer | OpenShift & Kubernetes Control Plane**
-
-*Building, testing, and automating components of the Kubernetes and OpenShift control plane — with strong focus on API machinery, operators, e2e testing, and cluster reliability.*
-
-</div>
+I work on building, testing, and automating components of the Kubernetes and OpenShift control plane — with strong focus on API machinery, operators, e2e testing, and cluster reliability.
 
 ---
 
 ## 🧩 Areas of Expertise
-
-<table>
-<tr>
-<td width="50%">
-
-**Kubernetes Internals**
-- API Server, Admission, Storage
-- API Versioning & Compatibility
-- Control Plane Components
-- Cluster Reliability
-
-</td>
-<td width="50%">
-
-**OpenShift Ecosystem**
-- CMO, CKO, CKAO Operators
-- OAuth-APIServer
-- OpenShift-APIServer
-- Custom Resource Management
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-**Testing & Quality**
-- e2e Test Design (parallel/serial)
-- Conformance Testing
-- Deprecation Strategies
-- Test Automation
-
-</td>
-<td width="50%">
-
-**Languages & Tools**
-- Go (Primary)
-- Python, Bash
-- Linux Debugging
-- CI/CD Pipelines
-
-</td>
-</tr>
-</table>
+- Kubernetes API Server, Admission, Storage, Versioning
+- OpenShift Operators (CMO, CKO, CKAO, OAuth-APIServer, OpenShift-APIServer, etc.)
+- e2e test design (parallel/serial, conformance, deprecation)
+- Migrating legacy APIs, maintaining API compatibility
+- Reliability & automation for large-scale clusters
+- Go, Python, Bash, Linux debugging
 
 ---
 
