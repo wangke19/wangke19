@@ -25,9 +25,35 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: go run update-stats.go
 
-      - name: Commit and push if changed
+      - name: Generate stats card SVG
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: go run generate-stats-card.go
+
+      - name: Commit stats card to output branch
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+          # Create/checkout output branch
+          git fetch origin output || true
+          git checkout -B output
+
+          # Keep only the SVG file
+          mkdir -p temp
+          mv stats-card.svg temp/
+          git rm -rf . || true
+          mv temp/stats-card.svg .
+          rm -rf temp
+
+          # Commit and push
+          git add stats-card.svg
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update stats card" && git push -f origin output)
+
+          # Go back to main branch
+          git checkout main
+
+      - name: Commit README changes
+        run: |
           git add README.md
           git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update GitHub stats" && git push)

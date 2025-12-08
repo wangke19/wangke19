@@ -19,31 +19,16 @@ I work on building, testing, and automating components of the Kubernetes and Ope
 
 <div align="center">
 
-<table>
-<tr>
-<td align="center" width="33%">
-<img src="https://img.shields.io/badge/⭐_Stars-0-yellow?style=for-the-badge" alt="Stars"/>
-</td>
-<td align="center" width="33%">
-<img src="https://img.shields.io/badge/🔥_Commits-113-orange?style=for-the-badge" alt="Commits"/>
-</td>
-<td align="center" width="33%">
-<img src="https://img.shields.io/badge/🔀_PRs-149-blue?style=for-the-badge" alt="PRs"/>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<img src="https://img.shields.io/badge/📝_Issues-0-green?style=for-the-badge" alt="Issues"/>
-</td>
-<td align="center" width="33%">
-<img src="https://img.shields.io/badge/🤝_Contributed-17-purple?style=for-the-badge" alt="Contributed"/>
-</td>
-<td align="center" width="33%">
-<img src="https://img.shields.io/badge/📦_Repos-63-red?style=for-the-badge" alt="Repos"/>
-</td>
-</tr>
-</table>
+![GitHub Stats](https://raw.githubusercontent.com/wangke19/wangke19/output/stats-card.svg)
 
-<sub>Last updated: 2025-12-08</sub>
+</div>
+
+---
+
+## 🐍 Contribution Snake
+
+<div align="center">
+
+![Snake animation](https://raw.githubusercontent.com/wangke19/wangke19/output/github-contribution-grid-snake-dark.svg)
 
 </div>
