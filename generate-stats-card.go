@@ -141,7 +141,7 @@ func fetchStats(ctx context.Context, token string) (*StatsCard, error) {
 }
 
 func generateStatsCardSVG(stats *StatsCard) string {
-	return fmt.Sprintf(`<svg width="580" height="195" viewBox="0 0 580 195" fill="none" xmlns="http://www.w3.org/2000/svg">
+	return fmt.Sprintf(`<svg width="580" height="130" viewBox="0 0 580 130" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
     .header { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #2f80ed; }
     .stat { font: 600 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: #333; }
