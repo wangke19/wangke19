@@ -53,7 +53,7 @@ func main() {
 func fetchStats(ctx context.Context, token string) (*StatsCard, error) {
 	query := `{
 		user(login: "` + username + `") {
-			contributionsCollection {
+			contributionsCollection(from: "2026-01-01T00:00:00Z", to: "2026-12-31T23:59:59Z") {
 				totalCommitContributions
 				totalIssueContributions
 				totalPullRequestContributions
